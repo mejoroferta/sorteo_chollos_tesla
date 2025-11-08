@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo Exclusivo - Chollos Tesla</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de Fuente Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilo para el "regalo misterioso" */
+        .mystery-box {
+            background: linear-gradient(145deg, #444, #222);
+            border: 2px dashed #666;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            aspect-ratio: 1/1;
+            max-width: 300px;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        .mystery-box .question-mark {
+            font-size: 6rem;
+            font-weight: 900;
+            line-height: 1;
+            color: #f59e0b; /* Un toque de color */
+        }
+        .mystery-box .box-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white antialiased">
+
+    <!-- Contenedor Principal -->
+    <div class="flex flex-col items-center justify-center min-h-screen p-6">
+
+        <div class="w-full max-w-lg mx-auto bg-gray-800 shadow-2xl rounded-2xl p-8 text-center">
+
+            <!-- Encabezado -->
+            <header class="mb-6">
+                <h1 class="text-2xl font-bold text-blue-400">Chollos Tesla</h1>
+                <h2 class="text-4xl font-extrabold text-white mt-2">¡SORTEO EXCLUSIVO!</h2>
+            </header>
+
+            <!-- El Gancho de Curiosidad -->
+            <div class="mb-6">
+                <p class="text-xl text-gray-300">
+                    Gana un accesorio <span class="font-bold text-amber-400">IMPRESCINDIBLE</span> para tu Tesla Model 3 o Model Y.
+                </p>
+                <p class="text-lg text-gray-400 mt-2">
+                    Es el accesorio más vendido de este mes y protege una parte clave de tu coche.
+                </p>
+            </div>
+
+            <!-- Caja Misteriosa -->
+            <div class="mystery-box rounded-lg">
+                <div class="question-mark">?</div>
+                <div class="box-text">¿Qué será?</div>
+            </div>
+
+            <!-- CTA Principal (Botón de Afiliado) -->
+            <div class="mt-8">
+                <p class="text-lg font-medium text-gray-200 mb-4">
+                    Para participar, solo tienes que dar <b class="text-blue-400">"Me Gusta"</b> al post original en Facebook.
+                </p>
+                <p class="text-md text-gray-300 mb-6">
+                    ¿Sientes curiosidad? ¡Haz clic abajo para descubrir el premio!
+                </p>
+                
+                <!-- ESTE ES TU ENLACE DE AFILIADO -->
+                <a 
+                    href="https://s.click.aliexpress.com/e/_c3b7EWnV" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="inline-block w-full max-w-xs px-8 py-4 text-xl font-bold text-white bg-blue-600 rounded-lg shadow-lg transition-transform duration-200 ease-in-out
+                           hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-500"
+                >
+                    ¡Descubrir el Premio!
+                </a>
+            </div>
+
+            <!-- Pie de página de confianza -->
+            <footer class="mt-8">
+                <p class="text-sm text-gray-500">
+                    Organizado por <span class="font-semibold">Chollos Tesla</span>. El sorteo finaliza el 15 de noviembre de 2025.
+                    El ganador será contactado por Facebook. ¡Mucha suerte!
+                </p>
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+</html>
